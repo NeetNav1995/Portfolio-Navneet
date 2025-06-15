@@ -1,0 +1,19 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "npx tailwindcss -i ./cssFiles/input.css -o ./dist/output.css --minify",
+  "watch": "npx tailwindcss -i ./cssFiles/input.css -o ./dist/output.css --watch"
+},
+
+  "author": "Navneet Kaur",
+  "license": "ISC",
+  "description": "Portfolio highlighting my skills, experience, projects, and education",
+  "keywords": [],
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
