@@ -12,7 +12,7 @@ function addRecommendation() {
       "\</b\>\<span\>\<b\>&#8221;\</b\>\</span\>";
       document.getElementById("all_rec").appendChild(ell);
     el.value = "";
-    showPopUp();
+    showPopUp()
   }
 }
 
